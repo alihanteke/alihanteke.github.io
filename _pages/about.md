@@ -29,16 +29,17 @@ Feel free to connect with me through my [LinkedIn](https://linkedin.com/in/kulla
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <script>
-  var map = L.map('map').setView([38.9637, 35.2433], 5); // Center on Turkey
+  var map = L.map('map').setView([38.9637, 35.2433], 5); // Turkey
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
 
   // Example Markers
-  L.marker([36.8969, 30.7133]).addTo(map) // Antalya, Manavgat
+  L.marker([36.8969, 30.7133]).addTo(map) // Antalya
     .bindPopup("<b>Manavgat Wildfire Study Area</b>");
 
   L.marker([41.0082, 28.9784]).addTo(map) // Istanbul
     .bindPopup("<b>Istanbul Urban Study</b>");
 </script>
+
