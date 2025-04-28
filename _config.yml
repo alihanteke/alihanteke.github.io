@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Alihan Teke"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : # example
+  location         : "Istanbul, Turkey"
   employer         : "Gebze Technical University"
   uri              : # URL
   email            : "a.teke2020@gtu.edu.tr" 
