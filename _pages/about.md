@@ -7,4 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hello! I am **Alihan Teke**, a researcher specializing in **Remote Sensing**, **Geographic Information Systems (GIS)**, and **Machine Learning** applications for environmental sciences.
+
+I hold a Master's degree in Geomatics Engineering, and my academic interests focus on the prediction and mapping of natural hazards such as landslides, wildfires, and drought. My work particularly explores the integration of artificial intelligence techniques, such as explainable AI (XAI), into geospatial modeling to enhance the interpretability and robustness of hazard predictions.
+
+Currently, my research emphasizes the causal inference of environmental processes using remote sensing data and machine learning algorithms. I am passionate about developing solutions that address complex environmental challenges through data-driven insights and spatial analytics.
+
+Beyond research, I am committed to advancing interdisciplinary approaches that bridge the gap between Earth observation technologies and sustainable development goals.
+
+> "Science is the engine that drives human progress. Let’s use it wisely."
+
+Feel free to connect with me through my [LinkedIn](https://linkedin.com/in/kullanici-adin) or check out my latest publications on [Google Scholar](https://scholar.google.com/citations?user=Scholar-ID).
