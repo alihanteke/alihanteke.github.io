@@ -18,3 +18,14 @@ Beyond research, I am committed to advancing interdisciplinary approaches that b
 > "Science is the engine that drives human progress. Let’s use it wisely."
 
 Feel free to connect with me through my [LinkedIn](https://linkedin.com/in/kullanici-adin) or check out my latest publications on [Google Scholar](https://scholar.google.com/citations?user=Scholar-ID).
+
+## 🌍 Research Footprint Map
+
+<iframe 
+  src="/assets/maps/footprint.html" 
+  width="100%" 
+  height="500" 
+  style="border:1px solid #ccc; border-radius:10px;"
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
