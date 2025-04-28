@@ -18,28 +18,3 @@ Beyond research, I am committed to advancing interdisciplinary approaches that b
 > "Science is the engine that drives human progress. Let’s use it wisely."
 
 Feel free to connect with me through my [LinkedIn](https://linkedin.com/in/kullanici-adin) or check out my latest publications on [Google Scholar](https://scholar.google.com/citations?user=Scholar-ID).
-
-<hr>
-
-## 🌍 Research Footprint Map
-
-<div id="map" style="width: 100%; height: 500px; margin-top: 20px; border-radius: 10px;"></div>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-<script>
-  var map = L.map('map').setView([38.9637, 35.2433], 5); // Turkey
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-
-  // Example Markers
-  L.marker([36.8969, 30.7133]).addTo(map) // Antalya
-    .bindPopup("<b>Manavgat Wildfire Study Area</b>");
-
-  L.marker([41.0082, 28.9784]).addTo(map) // Istanbul
-    .bindPopup("<b>Istanbul Urban Study</b>");
-</script>
-
