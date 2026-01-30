@@ -15,10 +15,10 @@ Education
 * M.S. in Geomatics Engineering, Gebze Technical University, 2020 - 2022
 * B.S. in Geomatics Engineering, Karadeniz Technical University, 2014 - 2019
 
-Work experience
+Appointments
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* Aug 2025: Graduate Assistant - Presidential Fellowship Holder
+  * Florida International University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
@@ -31,15 +31,6 @@ Work experience
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
