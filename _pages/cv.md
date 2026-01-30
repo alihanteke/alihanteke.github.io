@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Deneme, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Earth Systems Science, Florida International University, 2025 - 2029
+* M.S. in Geomatics Engineering, Gebze Technical University, 2020 - 2022
+* B.S. in Geomatics Engineering, Karadeniz Technical University, 2014 - 2019
 
 Work experience
 ======
