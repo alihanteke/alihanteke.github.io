@@ -17,6 +17,14 @@ I am a recipient of [**Presidential Fellowship**](https://gradschool.fiu.edu/stu
 
 Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/in/alihanteke1/) or check out my latest publications on [**Google Scholar**](https://scholar.google.com/citations?user=g0Vl1XQAAAAJ&hl=tr).
 
+## 📰 News
+
+- **Feb 2026** – Started my Ph.D. in Earth System Science at Florida International University.
+- **Jan 2026** – Awarded the **Presidential Fellowship** at FIU.
+- **Dec 2025** – Began research on estuarine surface frontogenesis using SCHISM outputs.
+- **Aug 2025** – Joined the Coastal and Estuarine Dynamics Laboratory under Prof. Wei Huang.
+
+
 ## 🌍 Research Footprint Map
 
 <iframe 
