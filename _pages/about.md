@@ -19,12 +19,14 @@ Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/
 
 ## 📰 News
 
-- **Feb 2026** – Started my Ph.D. in Earth System Science at Florida International University.
-- **Jan 2026** – Awarded the **Presidential Fellowship** at FIU.
-- **Dec 2025** – Began research on estuarine surface frontogenesis using SCHISM outputs.
-- **Aug 2025** – Joined the Coastal and Estuarine Dynamics Laboratory under Prof. Wei Huang.
+- **Aug 2025** – Started my Ph.D. in Earth System Science at Florida International University.
+- **Aug 2025** – Awarded the **Presidential Fellowship** at FIU.
+- **Apr 2025** - Awarded Outstanding Paper Award for Young Scientists by the Scientific Program Committee of COSPAR (Committee on Space Research)
+- **Dec 2022** – Awarded The Best Master's Thesis by IEEE Geoscience and Remote Sensing.
+- **Dec 2022** – Successfully defended my Master's thesis on [x]
+- **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of Prof. Taskin Kavzoglu.
 
-
+<!--
 ## 🌍 Research Footprint Map
 
 <iframe 
@@ -35,4 +37,6 @@ Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/
   frameborder="0" 
   allowfullscreen>
 </iframe>
+-->
+
 
