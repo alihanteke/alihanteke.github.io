@@ -27,7 +27,7 @@ Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/
 - **Dec 2022** – Awarded [**The Best Master's Thesis**](https://grssturkey.org/tez-yarismasi2022) by [**IEEE Geoscience and Remote Sensing**](https://grssturkey.org)
 - **Dec 2022** – Successfully defended my Master's Thesis
 - **Nov 2021** – Published my first co-author [**article**](https://www.mdpi.com/2072-4292/13/23/4776)
-- **Feb 2020** – Started as Research Assistant at Department of Geomatics Engineering, Gebze Technical University
+- **Feb 2020** – Started as [**Research Assistant**](https://www.gtu.edu.tr/personel/352/58293858/display.aspx) at [**Department of Geomatics Engineering**](https://www.gtu.edu.tr/en/kategori/303/3/display.aspx), [**Gebze Technical University**](https://www.gtu.edu.tr/en)
 - **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of Prof. Taskin Kavzoglu
 
 <!--
