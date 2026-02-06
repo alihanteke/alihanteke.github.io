@@ -20,7 +20,7 @@ Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/
 ## 📰 News
 
 - **Aug 2025** – Started my Ph.D. in Earth System Science at Florida International University
-- **Aug 2025** – Awarded the **Presidential Fellowship** at FIU
+- **Aug 2025** – Awarded the [**Presidential Fellowship**](https://gradschool.fiu.edu/students/funding/fellowships/presidential-pf-fellows/#toggle-id-1) at FIU
 - **Apr 2025** - Awarded [**Outstanding Paper Award for Young Scientists**](https://www.sciencedirect.com/journal/advances-in-space-research/about/news/cospar-outstanding-paper-award-for-young-scientists-papers-published-in-advances-in-space-research-in-2024) by the [**Scientific Program Committee of Committee on Space Research (COSPAR)**](https://cosparhq.cnes.fr)
 - **Sep 2022** - Attended [**LAndslide Risk Assessment and Mitigation (LARAM) School**](https://www.laram.unisa.it/school/2022hybrid/students) at [**University of Salerno**](https://web.unisa.it/en/university)
 - **Dec 2024** – Presented my first [**AGU poster**](https://ui.adsabs.harvard.edu/abs/2024AGUFMNH33C.221K/abstract)
