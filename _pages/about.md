@@ -25,8 +25,8 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 - **Dec 2024** – Presented my first <a href="https://ui.adsabs.harvard.edu/abs/2024AGUFMNH33C.221K/abstract" target="_blank" rel="noopener noreferrer"><strong>AGU poster</strong></a>
 - **Sep 2022** - Attended <a href="https://www.laram.unisa.it/school/2022hybrid/students" target="_blank" rel="noopener noreferrer"><strong>LAndslide Risk Assessment and Mitigation (LARAM) School</strong></a> at <a href="[https://www.laram.unisa.it/school/2022hybrid/students](https://web.unisa.it/en/university)" target="_blank" rel="noopener noreferrer"><strong>University of Salerno</strong></a>
 - **Dec 2022** – Awarded <a href="https://grssturkey.org/tez-yarismasi2022" target="_blank" rel="noopener noreferrer"><strong>The Best Master's Thesis</strong></a> by <a href="https://grssturkey.org" target="_blank" rel="noopener noreferrer"><strong>IEEE Geoscience and Remote Sensing</strong></a>
-- **Dec 2022** – Successfully defended my Master's Thesis
-- **Nov 2021** – Published my first co-author [**article**](https://www.mdpi.com/2072-4292/13/23/4776)
+- **Dec 2022** – Successfully defended my <a href="https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiBK856SU2b6Tm9VsLYSmmIbJQfAyFSNj5mwuCHzXq8R3" target="_blank" rel="noopener noreferrer"><strong>Master's Thesis</strong></a>
+- **Nov 2021** – Published my first co-author <a href="https://www.mdpi.com/2072-4292/13/23/4776" target="_blank" rel="noopener noreferrer"><strong>article</strong></a>
 - **Feb 2020** – Started as [**Research Assistant**](https://www.gtu.edu.tr/personel/352/58293858/display.aspx) at [**Department of Geomatics Engineering**](https://www.gtu.edu.tr/en/kategori/303/3/display.aspx), [**Gebze Technical University**](https://www.gtu.edu.tr/en)
 - **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of [**Prof. Taskin Kavzoglu**](https://www.gtu.edu.tr/en/personel/352/1069/display.aspx)
 
