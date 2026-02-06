@@ -27,8 +27,8 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 - **Dec 2022** – Awarded <a href="https://grssturkey.org/tez-yarismasi2022" target="_blank" rel="noopener noreferrer"><strong>The Best Master's Thesis</strong></a> by <a href="https://grssturkey.org" target="_blank" rel="noopener noreferrer"><strong>IEEE Geoscience and Remote Sensing</strong></a>
 - **Dec 2022** – Successfully defended my <a href="https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiBK856SU2b6Tm9VsLYSmmIbJQfAyFSNj5mwuCHzXq8R3" target="_blank" rel="noopener noreferrer"><strong>Master's Thesis</strong></a>
 - **Nov 2021** – Published my first co-author <a href="https://www.mdpi.com/2072-4292/13/23/4776" target="_blank" rel="noopener noreferrer"><strong>article</strong></a>
-- **Feb 2020** – Started as [**Research Assistant**](https://www.gtu.edu.tr/personel/352/58293858/display.aspx) at [**Department of Geomatics Engineering**](https://www.gtu.edu.tr/en/kategori/303/3/display.aspx), [**Gebze Technical University**](https://www.gtu.edu.tr/en)
-- **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of [**Prof. Taskin Kavzoglu**](https://www.gtu.edu.tr/en/personel/352/1069/display.aspx)
+- **Feb 2020** – Started as <a href="https://www.gtu.edu.tr/personel/352/58293858/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Research Assistant</strong></a> at <a href="https://www.gtu.edu.tr/en/kategori/303/3/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Department of Geomatics Engineering</strong></a>, <a href="https://www.gtu.edu.tr/en" target="_blank" rel="noopener noreferrer"><strong>Gebze Technical University</strong></a>
+- **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of <a href="https://www.gtu.edu.tr/en/personel/352/1069/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Prof. Taskin Kavzoglu</strong></a>
 
 <!--
 ## 🌍 Research Footprint Map
