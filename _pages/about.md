@@ -15,7 +15,7 @@ My research interests focus on understanding and predicting **Earth system proce
 
 I am a recipient of [**Presidential Fellowship**](https://gradschool.fiu.edu/students/funding/fellowships/presidential-pf-fellows/#toggle-id-1) and [**1416 YLSY Fellowsip**](https://www.youtube.com/watch?v=L455ZP2Dhl8). I am advised by [**Prof. Wei Huang**](https://case.fiu.edu/about/directory/profiles/huang-wei.html) at [**Coastal and Estuarine Dynamics Laboratory**](https://huang96169.github.io).
 
-Feel free to connect with me through my <a href="https://www.linkedin.com/in/alihanteke1/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a> or check out my latest publications on [**Google Scholar**](https://scholar.google.com/citations?user=g0Vl1XQAAAAJ&hl=tr).
+Feel free to connect with me through my <a href="https://www.linkedin.com/in/alihanteke1/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a> or check out my latest publications on <a href="[https://www.linkedin.com/in/alihanteke1/](https://scholar.google.com/citations?user=g0Vl1XQAAAAJ&hl=tr)" target="_blank" rel="noopener noreferrer"><strong>Google Scholar</strong></a>.
 
 ## 📰 News
 
