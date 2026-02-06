@@ -24,7 +24,7 @@ Feel free to connect with me through my [**LinkedIn**](https://www.linkedin.com/
 - **Apr 2025** - Awarded [**Outstanding Paper Award for Young Scientists**](https://www.sciencedirect.com/journal/advances-in-space-research/about/news/cospar-outstanding-paper-award-for-young-scientists-papers-published-in-advances-in-space-research-in-2024) by the [**Scientific Program Committee of Committee on Space Research (COSPAR)**](https://cosparhq.cnes.fr)
 - **Sep 2022** - Attended [**LAndslide Risk Assessment and Mitigation (LARAM) School**](https://www.laram.unisa.it/school/2022hybrid/students) at [**University of Salerno**](https://web.unisa.it/en/university)
 - **Dec 2024** – Presented my first [**AGU poster**](https://ui.adsabs.harvard.edu/abs/2024AGUFMNH33C.221K/abstract)
-- **Dec 2022** – Awarded The Best Master's Thesis by IEEE Geoscience and Remote Sensing
+- **Dec 2022** – Awarded [**The Best Master's Thesis**](https://grssturkey.org/tez-yarismasi2022) by [**IEEE Geoscience and Remote Sensing**](https://grssturkey.org)
 - **Dec 2022** – Successfully defended my Master's Thesis
 - **Nov 2021** – Published my first co-author [**article**](https://www.mdpi.com/2072-4292/13/23/4776)
 - **Feb 2020** – Started as Research Assistant at Department of Geomatics Engineering, Gebze Technical University
