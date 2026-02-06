@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am **Alihan Teke**, a Ph.D. student in the Earth System Science Ph.D. program at Florida International University.
+Hello! I am **Alihan Teke**, a Ph.D. student in the <a href="https://case.fiu.edu/earth-environment/students/graduate/phd-in-earth-systems-science/" target="_blank" rel="noopener noreferrer"><strong>Earth Systems Science Ph.D. Program</strong></a> at <a href="https://www.fiu.edu" target="_blank" rel="noopener noreferrer"><strong>Florida International University</strong></a>
 
 My research interests focus on understanding and predicting **Earth system processes**—ranging from **estuarine** and **ocean dynamics** to **natural disasters**—through the integrated use of **remote sensing**, **numerical modeling**, and **artificial intelligence**.
 
