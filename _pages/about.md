@@ -13,7 +13,7 @@ Hello! I am **Alihan Teke**, a Ph.D. student in the <a href="https://case.fiu.ed
 
 My research interests focus on understanding and predicting **Earth system processes**—ranging from **estuarine** and **ocean dynamics** to **natural disasters**—through the integrated use of **remote sensing**, **numerical modeling**, and **artificial intelligence**.
 
-I am a recipient of <a href="https://gradschool.fiu.edu/students/funding/fellowships/presidential-pf-fellows/#toggle-id-1" target="_blank" rel="noopener noreferrer"><strong>Presidential Fellowship</strong></a> and <a href="https://www.youtube.com/watch?v=L455ZP2Dhl8" target="_blank" rel="noopener noreferrer"><strong>1416 YLSY Fellowsip</strong></a> at <a href="https://huang96169.github.io" target="_blank" rel="noopener noreferrer"><strong>Coastal and Estuarine Dynamics Laboratory</strong></a>.
+I am a recipient of <a href="https://gradschool.fiu.edu/students/funding/fellowships/presidential-pf-fellows/#toggle-id-1" target="_blank" rel="noopener noreferrer"><strong>Presidential Fellowship</strong></a> and <a href="https://www.youtube.com/watch?v=L455ZP2Dhl8" target="_blank" rel="noopener noreferrer"><strong>1416 YLSY Fellowship</strong></a> at <a href="https://huang96169.github.io" target="_blank" rel="noopener noreferrer"><strong>Coastal and Estuarine Dynamics Laboratory</strong></a>.
 
 Feel free to connect with me through my <a href="https://www.linkedin.com/in/alihanteke1/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a> or check out my latest publications on <a href="https://scholar.google.com/citations?user=g0Vl1XQAAAAJ&hl=tr" target="_blank" rel="noopener noreferrer"><strong>Google Scholar</strong></a>.
 
