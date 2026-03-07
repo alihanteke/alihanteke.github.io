@@ -32,7 +32,7 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 
 ## 🌍 Visitor Map & Counter
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 30px; margin-top: 20px; margin-bottom: 20px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 10px; margin-top: 10px; margin-bottom: 10px;">
 
   <!-- ClustrMaps -->
   <div>
