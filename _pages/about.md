@@ -33,11 +33,10 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 ## 🌍 Visitor Map
 
 <iframe 
-  src="/portfolio/assets/maps/visitor-map.html" 
+  src="/assets/maps/visitor-map.html" 
   width="100%" 
   height="430" 
   style="border:none; border-radius:8px;"
   frameborder="0">
 </iframe>
-
 
