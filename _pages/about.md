@@ -36,7 +36,7 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 
   <!-- ClustrMaps -->
   <div>
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=500"></script>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=500&t=m"></script>
   </div>
 
   <!-- Flag Counter -->
@@ -45,6 +45,8 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
       <img src="https://s01.flagcounter.com/count2/zRdk/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_49/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
     </a>
   </div>
+
+</div>
 
 </div>
 
