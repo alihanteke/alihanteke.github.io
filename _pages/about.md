@@ -30,10 +30,22 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 - **Feb 2020** – Started as <a href="https://www.gtu.edu.tr/personel/352/58293858/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Research Assistant</strong></a> at <a href="https://www.gtu.edu.tr/en/kategori/303/3/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Department of Geomatics Engineering</strong></a>, <a href="https://www.gtu.edu.tr/en" target="_blank" rel="noopener noreferrer"><strong>Gebze Technical University</strong></a>
 - **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of <a href="https://www.gtu.edu.tr/en/personel/352/1069/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Prof. Taskin Kavzoglu</strong></a>
 
-## 🌍 Visitor Map
+## 🌍 Visitor Map & Counter
 
-<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=600&t=tt"></script>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 30px; margin-top: 20px; margin-bottom: 20px;">
+
+  <!-- ClustrMaps -->
+  <div>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=500"></script>
+  </div>
+
+  <!-- Flag Counter -->
+  <div style="margin-top: 10px;">
+    <a href="https://info.flagcounter.com/zRdk">
+      <img src="https://s01.flagcounter.com/count2/zRdk/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_49/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+    </a>
+  </div>
+
 </div>
 
 
