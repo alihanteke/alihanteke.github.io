@@ -33,7 +33,7 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 ## 🌍 Visitor Map
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=a"></script>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec"></script>
 </div>
 
 
