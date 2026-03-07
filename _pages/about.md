@@ -30,17 +30,10 @@ Feel free to connect with me through my <a href="https://www.linkedin.com/in/ali
 - **Feb 2020** – Started as <a href="https://www.gtu.edu.tr/personel/352/58293858/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Research Assistant</strong></a> at <a href="https://www.gtu.edu.tr/en/kategori/303/3/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Department of Geomatics Engineering</strong></a>, <a href="https://www.gtu.edu.tr/en" target="_blank" rel="noopener noreferrer"><strong>Gebze Technical University</strong></a>
 - **Feb 2020** – Started my Master's in Geomatics Engineering at Gebze Technical University under the supervision of <a href="https://www.gtu.edu.tr/en/personel/352/1069/display.aspx" target="_blank" rel="noopener noreferrer"><strong>Prof. Taskin Kavzoglu</strong></a>
 
-<!--
-## 🌍 Research Footprint Map
+## 🌍 Visitor Map
 
-<iframe 
-  src="/assets/maps/footprint.html" 
-  width="100%" 
-  height="500" 
-  style="border:1px solid #ccc; border-radius:10px;"
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
--->
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wBtzZ5ovFERKv24VcijdL5SWqJvH3Iwsm9TLWUb75Ec&cl=ffffff&w=a"></script>
+</div>
 
 
