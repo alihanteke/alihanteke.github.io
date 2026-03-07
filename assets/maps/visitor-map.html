@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visitor Map</title>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    background: #0a0f1e;
+    color: #e0e8ff;
+  }
+
+  .map-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .map-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding: 0 4px;
+  }
+
+  .map-title {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #7eb8f7;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+
+  .visitor-count {
+    font-size: 0.85rem;
+    color: #4a9eff;
+    background: rgba(74, 158, 255, 0.1);
+    border: 1px solid rgba(74, 158, 255, 0.2);
+    padding: 3px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+  }
+
+  #visitor-map {
+    width: 100%;
+    height: 380px;
+    border-radius: 8px;
+    border: 1px solid rgba(74, 158, 255, 0.15);
+    overflow: hidden;
+  }
+
+  /* Leaflet dark overrides */
+  .leaflet-container {
+    background: #0d1829 !important;
+  }
+
+  .leaflet-tile {
+    filter: brightness(0.7) saturate(0.4) hue-rotate(200deg);
+  }
+
+  .leaflet-control-zoom a {
+    background: #0d1829 !important;
+    color: #4a9eff !important;
+    border-color: rgba(74,158,255,0.2) !important;
+  }
+
+  .leaflet-control-attribution {
+    background: rgba(10, 15, 30, 0.7) !important;
+    color: #4a6080 !important;
+    font-size: 9px !important;
+  }
+
+  .leaflet-control-attribution a {
+    color: #4a7ab0 !important;
+  }
+
+  /* Custom pulse marker */
+  .pulse-marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #4a9eff;
+    box-shadow: 0 0 0 0 rgba(74, 158, 255, 0.6);
+    animation: pulse-ring 2s ease-out infinite;
+    position: relative;
+  }
+
+  .pulse-marker.you {
+    background: #ff6b4a;
+    box-shadow: 0 0 0 0 rgba(255, 107, 74, 0.6);
+    animation: pulse-ring-you 2s ease-out infinite;
+  }
+
+  @keyframes pulse-ring {
+    0%   { box-shadow: 0 0 0 0 rgba(74, 158, 255, 0.6); }
+    70%  { box-shadow: 0 0 0 10px rgba(74, 158, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(74, 158, 255, 0); }
+  }
+
+  @keyframes pulse-ring-you {
+    0%   { box-shadow: 0 0 0 0 rgba(255, 107, 74, 0.6); }
+    70%  { box-shadow: 0 0 0 10px rgba(255, 107, 74, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 107, 74, 0); }
+  }
+
+  .map-status {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3a5070;
+    margin-top: 8px;
+    letter-spacing: 0.05em;
+  }
+
+  .map-status span {
+    color: #4a9eff;
+  }
+</style>
+</head>
+<body>
+
+<div class="map-wrapper">
+  <div class="map-header">
+    <div class="map-title">🌍 Visitor Map</div>
+    <div class="visitor-count" id="count-badge">Loading...</div>
+  </div>
+
+  <div id="visitor-map"></div>
+
+  <div class="map-status" id="map-status">Locating your position...</div>
+</div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Firebase -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+  // ---- Firebase Config ----
+  const firebaseConfig = {
+    apiKey: "AIzaSyDHoxoE9iVqWGlmY26e77U5TQ1X0XKBWCU",
+    authDomain: "portfolio-visitors-1b193.firebaseapp.com",
+    databaseURL: "https://portfolio-visitors-1b193-default-rtdb.firebaseio.com",
+    projectId: "portfolio-visitors-1b193",
+    storageBucket: "portfolio-visitors-1b193.firebasestorage.app",
+    messagingSenderId: "175270197397",
+    appId: "1:175270197397:web:aa31d440c449cf43a0c39c",
+    measurementId: "G-7Q6LPQE25G"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  // ---- Init Leaflet Map ----
+  const map = L.map('visitor-map', {
+    center: [20, 10],
+    zoom: 2,
+    zoomControl: true,
+    attributionControl: true,
+    scrollWheelZoom: false
+  });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap',
+    maxZoom: 10
+  }).addTo(map);
+
+  function createPulseIcon(isYou = false) {
+    return L.divIcon({
+      className: '',
+      html: `<div class="pulse-marker${isYou ? ' you' : ''}"></div>`,
+      iconSize: [12, 12],
+      iconAnchor: [6, 6]
+    });
+  }
+
+  // ---- Load all visitors ----
+  const visitorsRef = ref(db, 'visitors');
+  const markers = {};
+
+  onValue(visitorsRef, (snapshot) => {
+    const data = snapshot.val();
+    const count = data ? Object.keys(data).length : 0;
+    document.getElementById('count-badge').textContent = `${count} visitor${count !== 1 ? 's' : ''}`;
+
+    // Clear old markers
+    Object.values(markers).forEach(m => map.removeLayer(m));
+
+    if (data) {
+      Object.entries(data).forEach(([key, v]) => {
+        if (v.lat && v.lng) {
+          const marker = L.marker([v.lat, v.lng], { icon: createPulseIcon(false) })
+            .bindPopup(`<b>${v.city || 'Unknown'}</b><br>${v.country || ''}`)
+            .addTo(map);
+          markers[key] = marker;
+        }
+      });
+    }
+  });
+
+  // ---- Get current visitor location ----
+  async function recordVisitor() {
+    // Check if already recorded this session
+    if (sessionStorage.getItem('visitor_recorded')) {
+      document.getElementById('map-status').innerHTML = 'Your location is marked on the map.';
+      return;
+    }
+
+    try {
+      const res = await fetch('https://ipapi.co/json/');
+      const data = await res.json();
+
+      if (data.latitude && data.longitude) {
+        // Add visitor to Firebase
+        await push(visitorsRef, {
+          lat: data.latitude,
+          lng: data.longitude,
+          city: data.city || 'Unknown',
+          country: data.country_name || 'Unknown',
+          timestamp: Date.now()
+        });
+
+        // Mark as recorded this session
+        sessionStorage.setItem('visitor_recorded', 'true');
+
+        // Add "you" marker
+        L.marker([data.latitude, data.longitude], { icon: createPulseIcon(true) })
+          .bindPopup(`<b>You are here!</b><br>${data.city}, ${data.country_name}`)
+          .addTo(map)
+          .openPopup();
+
+        map.setView([data.latitude, data.longitude], 4, { animate: true });
+
+        document.getElementById('map-status').innerHTML =
+          `You are visiting from <span>${data.city}, ${data.country_name}</span>`;
+      }
+    } catch (e) {
+      document.getElementById('map-status').textContent = 'Could not determine location.';
+    }
+  }
+
+  recordVisitor();
+</script>
+
+</body>
+</html>
