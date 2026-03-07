@@ -13,8 +13,8 @@
 
   body {
     font-family: 'Georgia', serif;
-    background: #0a0f1e;
-    color: #e0e8ff;
+    background: #f5f7fa;
+    color: #333;
   }
 
   .map-wrapper {
@@ -33,19 +33,18 @@
   }
 
   .map-title {
-    font-size: 1rem;
     font-weight: normal;
-    color: #7eb8f7;
-    letter-spacing: 0.08em;
+    color: #333;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     font-size: 0.85rem;
   }
 
   .visitor-count {
     font-size: 0.85rem;
-    color: #4a9eff;
-    background: rgba(74, 158, 255, 0.1);
-    border: 1px solid rgba(74, 158, 255, 0.2);
+    color: #2979d4;
+    background: rgba(41, 121, 212, 0.08);
+    border: 1px solid rgba(41, 121, 212, 0.2);
     padding: 3px 12px;
     border-radius: 20px;
     letter-spacing: 0.05em;
@@ -55,33 +54,9 @@
     width: 100%;
     height: 380px;
     border-radius: 8px;
-    border: 1px solid rgba(74, 158, 255, 0.15);
+    border: 1px solid #dde3ec;
     overflow: hidden;
-  }
-
-  /* Leaflet dark overrides */
-  .leaflet-container {
-    background: #0d1829 !important;
-  }
-
-  .leaflet-tile {
-    filter: brightness(0.7) saturate(0.4) hue-rotate(200deg);
-  }
-
-  .leaflet-control-zoom a {
-    background: #0d1829 !important;
-    color: #4a9eff !important;
-    border-color: rgba(74,158,255,0.2) !important;
-  }
-
-  .leaflet-control-attribution {
-    background: rgba(10, 15, 30, 0.7) !important;
-    color: #4a6080 !important;
-    font-size: 9px !important;
-  }
-
-  .leaflet-control-attribution a {
-    color: #4a7ab0 !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
 
   /* Custom pulse marker */
@@ -116,13 +91,14 @@
   .map-status {
     text-align: center;
     font-size: 0.75rem;
-    color: #3a5070;
+    color: #888;
     margin-top: 8px;
     letter-spacing: 0.05em;
   }
 
   .map-status span {
-    color: #4a9eff;
+    color: #2979d4;
+    font-weight: bold;
   }
 </style>
 </head>
